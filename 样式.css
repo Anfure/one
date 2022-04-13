@@ -27,7 +27,7 @@ body {
     这样的好处就是修改border和padding数值盒子的大小不变 */
     box-sizing: border-box;
     /* 盒子阴影 */
-    box-shadow: 14px 14px 20px #71838f, -14px -14px 20px #eedcc4;
+    box-shadow: 14px 14px 20px #71838f, -14px -14px 20px #f5e5d2;
     /* 绝对定位 */
     position: absolute;
     /* 居中显示 */
@@ -108,7 +108,7 @@ button {
     font-weight: 800;
     font-family: sans-serif;
     letter-spacing: 1px;
-    box-shadow: 4px 4px 4px #71838f, -4px -4px 4px #eedcc4;
+    box-shadow: 6px 6px 6px #71838f, -6px -6px 6px #f3e6c8;
 }
 
 /* 点击阴影消除 */
