@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background: #d6c7b2;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    place-items: center;
+    overflow: hidden;
+    font-family: sans-serif;
+}
+
+.content {
+    width: 350px;
+    height: 520px;
+    background: #e5cc96;
+    /* 文字弹性居中 */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    /* 四角边缘圆滑度 */
+    border-radius: 20px;
+    /* box-sizing: border-box就是将border和padding数值包含在width和height之内，
+    这样的好处就是修改border和padding数值盒子的大小不变 */
+    box-sizing: border-box;
+    /* 盒子阴影 */
+    box-shadow: 14px 14px 20px #71838f, -14px -14px 20px #f5e5d2;
+    /* 绝对定位 */
+    position: absolute;
+    /* 居中显示 */
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.word {
+    font-size: 20px;
+    font-family: 雅黑;
+}
